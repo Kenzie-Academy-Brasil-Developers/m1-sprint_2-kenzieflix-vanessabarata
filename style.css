@@ -1,0 +1,129 @@
+.body {
+    background-color: #000;
+}
+
+.principal {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #121214;
+    border-radius: 12px;
+}
+
+.logo {
+    position: absolute;
+    width: 229px;
+    height: 68px;
+    left: 517px;
+    top: 42px;
+}
+
+.quem {
+    position: absolute;
+    width: 334px;
+    height: 42px;
+    left: 464px;
+    top: 183px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.container{
+    position: absolute;
+    width: 700px;
+    height: 194px;
+    left: 272px;
+    top: 286px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    border-radius: 8px;
+}
+
+.box:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+.aline{
+    overflow: hidden;
+    border: 0px solid #000;
+    border-radius: 8px;
+ }
+
+.pedrinho{
+    overflow: hidden;
+    border: 0px solid #000;
+    border-radius: 8px;
+}
+
+.julia{
+    overflow: hidden;
+    border: 0px solid #000;
+    border-radius: 8px;
+}
+
+.novo {
+    overflow: hidden;
+    border: 0px solid #000;
+    border-radius: 8px;
+}
+
+.nomes {
+    position: static;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.gerenciar {
+    position: absolute;
+    text-align:center;
+    left: 528px;
+    right: 546px;
+    top: 582px;
+    bottom: 88px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    color: #FFFFFF;
+    border: solid 3px white;
+    border-radius: 8px; 
+}
+
+.gerenciar:hover {
+    background-color: white;
+    color: black
+}
+
+.botao {
+    background: #1E1E20;
+    border-radius: 8px;
+}
